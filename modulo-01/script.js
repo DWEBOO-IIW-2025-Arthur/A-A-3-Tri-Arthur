@@ -8,7 +8,7 @@ let nomeDaVariavel = "valor da variável";
 let outraVariavel = "valor da outra variável";
 let variavelNumero = "1980";
 let variavelCheiroNaSala = false;
-let variavelIndefinida;
+
 
 console.log(nomeDaVariavle);
 console.log(outraVariavel);

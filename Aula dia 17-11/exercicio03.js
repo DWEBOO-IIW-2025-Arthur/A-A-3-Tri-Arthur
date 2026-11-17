@@ -4,6 +4,6 @@ Peça um ano e mostre se ele é bissexto usando uma única expressão lógica. T
 */
 
 function anoBissexto(ano) {
-    const eBissexto = (ano % 4 == 0) && (ano % 100 != 0) //terminar
+    const eBissexto = ((ano % 4 == 0) && (ano % 100 != 0)) || ano % 400 == 0
     return eBissexto
 }

@@ -64,3 +64,5 @@ console.log('Você é ', tipo);
 
 
 const opcao = prompt('Selecione um item do menu\n1 - Pastel\n2 - Coxinha\n 3 - Suco')
+
+//terminar

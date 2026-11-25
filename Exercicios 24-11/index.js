@@ -1,6 +1,6 @@
-conceito1 = Number(prompt("Insira o primeiro conceito: (A, B, C ou D)"));
-conceito2 = Number(prompt("Insira o segundo conceito: (A, B, C ou D)"));
-conceito3 = Number(prompt("Insira o terceiro conceito: (A, B, C ou D)"));
+conceito1 = prompt("Insira o primeiro conceito: (A, B, C ou D)");
+conceito2 = prompt("Insira o segundo conceito: (A, B, C ou D)");
+conceito3 = prompt("Insira o terceiro conceito: (A, B, C ou D)");
 
 frequencia1 = Number(prompt("Insira a primeira frequencia: (0% - 100%)"));
 frequencia2 = Number(prompt("Insira a segunda frequencia: (0% - 100%)"));

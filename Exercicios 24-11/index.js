@@ -16,8 +16,7 @@ function checkAprovado(conceito, frequencia) {
         }
         return notaValues[conceito.toUpperCase];
     }
-
-    return toNota(conceito) >= 2 && frequencia >= 75 ? 'aprovado' : 'reprovado';
+    return ((toNota(conceito) >= 2) && (frequencia >= 75)) ? 'aprovado' : 'reprovado';
 }
 
 console.log(`o aluno foi ${checkAprovado(conceito1, frequencia1)} no primeiro trimestre`)

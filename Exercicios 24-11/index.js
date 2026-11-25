@@ -6,8 +6,8 @@ frequencia1 = Number(prompt("Insira a primeira frequencia: (0% - 100%)"));
 frequencia2 = Number(prompt("Insira a segunda frequencia: (0% - 100%)"));
 frequencia3 = Number(prompt("Insira a terceira frequencia: (0% - 100%)"));
 
-funciton checkAprovado(conceito, frequencia) {
-    fucntion toNota(conceito) {
+function checkAprovado(conceito, frequencia) {
+    function toNota(conceito) {
         const notaValues = {
             A: 4,
             B: 3,

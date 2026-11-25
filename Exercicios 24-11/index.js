@@ -14,7 +14,7 @@ function checkAprovado(conceito, frequencia) {
             C: 2,
             D: 1,
         }
-        return notaValues[conceito.toUpperCase];
+        return notaValues[conceito.toUpperCase()];
     }
     return ((toNota(conceito) >= 2) && (frequencia >= 75)) ? 'aprovado' : 'reprovado';
 }
